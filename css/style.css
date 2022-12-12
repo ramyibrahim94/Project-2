@@ -1,0 +1,235 @@
+@media screen and (max-width: 800px) {
+    nav a {
+        letter-spacing: 3px!important;
+    }
+    nav .right {
+        padding: 0px 10px!important;
+    }
+    header p {
+        top: 40% !important;
+    }
+    header p span {
+        display: block;
+    }
+    main section .container-item {
+        width: 49.5% !important;
+    }
+    .container-item span {
+        padding: 15px 18px !important;
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav a {
+        letter-spacing: 2px!important;
+        font-size: 16px!important;
+    }
+    header p {
+        left: 35% !important;
+        font-size: 30px
+    }
+    header p span {
+        display: block;
+    }
+    main section .container-item {
+        width: 100% !important;
+    }
+    .container-item span {
+        font-size: 20px !important;
+    }
+}
+
+@font-face {
+    font-family: "verdana";
+    src: url(../fonts/verdanab.ttf);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+
+         /* Nav bar */
+nav {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    box-shadow: 5px 5px 5px  rgba(192, 192, 192, 0.5);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: 400;
+}
+nav .left span {
+    font-weight: 600;
+}
+nav .right {
+    float: right;
+    padding: 0px 15px;
+}
+
+         /* Header with image */
+header {
+    position: relative;
+}
+header p {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 40%;
+    font-family: "segoe UI";
+    font-size: 38px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+header p span {
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    margin-right: 12px;
+}
+         /* Main */
+main {
+    padding: 5px 30px;
+    background-color: white;
+}
+main section {
+    padding: 40px 0px;
+}
+main section p {
+    font-family: "segoe UI";
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+main section .container {
+    padding: 45px 0px 10px 0px;
+}
+#container_2 {
+    padding-top: 5px; 
+}
+main section .container-item {
+    display: inline-block;
+    padding: 5px;
+    width: 24.5%;
+}
+.container-item {
+    position: relative;
+}
+.container-item span {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-family: "arial";
+    font-size: 14px;
+}
+main section .p1 {
+    font-family: "arial";
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding: 15px 0px;
+    border-bottom: none;
+}
+#container_item_3 {
+    float: left;
+}
+h2 {
+    font-family: "segoe UI";
+    font-size: 24px;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+h3 {
+    font-family: "arial";
+    font-size: 15px;
+    color: #666666;
+    padding: 10px 0px;
+    font-weight: 200;
+}
+.p2 {
+    font-family: "arial";
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: none;
+    padding: 10px 0px;
+    line-height: 1.5;
+}
+.container-item a {
+    width: 100%;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 10px 0px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "arial";
+}
+.container-item a:hover {
+    background-color: lightgrey;
+}
+.p3 {
+    font-family: "arial";
+    font-size: 15px;
+    border-bottom: none;
+    padding: 15px 0px;
+}
+form {
+    margin-bottom: 25px;
+}
+form input {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 10px 0px;
+}
+#Contact a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: "arial";
+}
+#Contact a:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    color: black;
+}
+
+         /* Footer */
+footer {
+    background-color: black;
+    height: 100px;
+}
+.final {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 45px;
+}
+.final p, .final a {
+    color: white;
+    font-size: 15px;
+    font-family: "arial";
+    text-align: center;
+}
